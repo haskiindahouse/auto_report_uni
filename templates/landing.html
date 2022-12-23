@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+{% block title %}Отчеты{% endblock %}
+
+{% block content %}
+<div class="ui center aligned basic very padded segment">
+    <h1 class="ui header">Система отчетов
+        <div class="sub header">Проставляй зачеты студентам по разным дисциплинам</div>
+    </h1>
+    <a href="{% url 'login' %}">
+        <div class="ui primary button">Войти</div>
+    </a>
+</div>
+{% endblock %}
